@@ -1,3 +1,72 @@
-img{
-border-radius: 8px;
+:root{
+   --colorPrincipal: rgb(246, 244, 244); 
+   --colorSecundario: rgb(209, 206, 238);
+   --colorBotones: rgb(163, 122, 186);
+}
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+body{
+   font-size: 62.5%;
+   font-family: 'Times New Roman', Times, serif;
+   background-color: var(--colorPrincipal);
+}
+header{
+   height: 135px;
+   width: 900px;
+   margin: auto;
+   text-align: center;
+}
+.header--img{
+   float: left;
+   height: 130px;
+   width:185px ;
+}
+.header--tittle{
+   float:left;
+   height: 130px;
+   width: 700px;
+   text-align: center;
+   padding: 30px;
+}
+.article--login{
+   margin-top: 50px;
+   margin: auto;
+}
+.article--login--img{
+   margin-top: 40px;
+}
+.article--login--inputs{
+   margin: auto;
+   width: 200px;
+}
+.article--login--img img{
+   border-radius: 100px;
+}
+.article--login--inputs button{
+
+}
+footer{
+   width: 900px;
+   height: 110px;
+   margin: auto;
+}
+.footer--img{
+   float: left;
+}
+.footer--img img{
+   border-radius: 100px;
+   width: 90px;
+}
+.footer--datospersonales{
+   float:left;
+   margin-top:30px;
+   margin-left: 30px;
+   color: var(--colorSecundario)
+}
+.footer--datosLaborales{
+   
+
 }

@@ -1,7 +1,7 @@
 :root{
    --colorPrincipal: rgb(246, 244, 244); 
    --colorSecundario: rgb(209, 206, 238);
-   --colorBotones: rgb(163, 122, 186);
+   --colorBotones: rgb(170, 164, 225);
 }
 *{
    box-sizing: border-box;
@@ -24,6 +24,9 @@ header{
    height: 130px;
    width:185px ;
 }
+.header--img img{
+   border-radius: 8px;
+}
 .header--tittle{
    float:left;
    height: 130px;
@@ -34,20 +37,30 @@ header{
 .article--login{
    margin-top: 50px;
    margin: auto;
+   text-align: center;
 }
 .article--login--img{
-   margin-top: 40px;
+   margin-top: 50px;
 }
 .article--login--inputs{
    margin: auto;
-   width: 200px;
+   width: 300px;
+}
+.article--login--inputs input{
+   display:block;
+   height: 30px;
+   border-radius: 8px;
+   margin-top: 10px;
+}
+.article--login--inputs button{
+   padding: 10px;
+   margin-top: 10px;
+
 }
 .article--login--img img{
    border-radius: 100px;
 }
-.article--login--inputs button{
 
-}
 footer{
    width: 900px;
    height: 110px;

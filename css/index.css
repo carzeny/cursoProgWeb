@@ -60,26 +60,46 @@ header{
 .article--login--img img{
    border-radius: 100px;
 }
+/**************************/
+.datos{
+    display: none;
+    margin-top:50px;
+    color:var(--colorSecundario);
+}
+.datos--table{
+    width: 100%;
+    position: relative;
+}
+.datos table{
+    border: 3px solid;
+    margin:auto;
+}
+.datos th{
+    border: 1px solid;
+    width: 200px;
+}
 
+/*********************/
 footer{
    width: 900px;
    height: 110px;
    margin: auto;
+   color:var(--colorSecundario)
 }
 .footer--img{
    float: left;
 }
 .footer--img img{
    border-radius: 100px;
-   width: 90px;
+   width: 100px;
 }
 .footer--datospersonales{
    float:left;
-   margin-top:30px;
-   margin-left: 30px;
+   margin-top:25px;
+   margin-left: 25px;
    color: var(--colorSecundario)
 }
 .footer--datosLaborales{
-   
-
+   float:right;
+   margin-top:25px;
 }
